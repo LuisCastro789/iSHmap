@@ -1,0 +1,23 @@
+{
+  "21":  {"name": "ftp",    "probe": "",         "keywords": {"vsftpd": "vsftpd", "ProFTPD": "proftpd"}},
+  "22":  {"name": "ssh",    "probe": "",         "keywords": {"OpenSSH": "openssh", "dropbear": "dropbear"}},
+  "23":  {"name": "telnet", "probe": "\r\n",    "keywords": {}},
+  "25":  {"name": "smtp",   "probe": "EHLO x\r\n", "keywords": {"Postfix": "postfix", "Exim": "exim", "sendmail": "sendmail"}},
+  "53":  {"name": "dns",    "probe": "",         "keywords": {}},
+  "80":  {"name": "http",   "probe": "HEAD / HTTP/1.0\r\n\r\n", "keywords": {"nginx": "nginx", "Apache": "apache", "IIS": "iis"}},
+  "110": {"name": "pop3",   "probe": "",         "keywords": {}},
+  "111": {"name": "rpcbind","probe": "",         "keywords": {}},
+  "135": {"name": "msrpc",  "probe": "",         "keywords": {}},
+  "139": {"name": "netbios-ssn", "probe": "",    "keywords": {}},
+  "143": {"name": "imap",   "probe": "",         "keywords": {"Dovecot": "dovecot"}},
+  "443": {"name": "https",  "probe": "",         "keywords": {"nginx": "nginx", "Apache": "apache"}},
+  "445": {"name": "microsoft-ds", "probe": "",   "keywords": {}},
+  "993": {"name": "imaps",  "probe": "",         "keywords": {}},
+  "995": {"name": "pop3s",  "probe": "",         "keywords": {}},
+  "1723":{"name": "pptp",   "probe": "",         "keywords": {}},
+  "3306":{"name": "mysql",  "probe": "",         "keywords": {"mysql": "mysql", "MariaDB": "mariadb"}},
+  "3389":{"name": "ms-wbt-server", "probe": "",  "keywords": {}},
+  "5900":{"name": "vnc",    "probe": "",         "keywords": {"RFB": "vnc"}},
+  "8080":{"name": "http-proxy", "probe": "HEAD / HTTP/1.0\r\n\r\n", "keywords": {"nginx": "nginx", "Apache": "apache"}},
+  "8443":{"name": "https-alt", "probe": "",      "keywords": {}}
+}

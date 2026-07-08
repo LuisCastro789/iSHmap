@@ -1,0 +1,2 @@
+# iSHMap uses only the Python 3 standard library (asyncio, ipaddress, argparse, json).
+# No third-party dependencies are required.
